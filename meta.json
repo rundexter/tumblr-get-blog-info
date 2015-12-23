@@ -4,23 +4,50 @@
 {
     //Required. Inputs the module expects.
     "inputs": [
-        //e.g.
-        /*
         {
-            "id": "from",
-            "title":"From"
+            "id": "base-hostname",
+            "title":"Hostname"
+        },
+        {
+            "id": "api_key",
+            "title":"API Key"
         }
-        */
     ],
     //Required. Outputs the module emits.
     "outputs": [
-      //e.g.
-      /*
         {
-            "id": "from",
-            "title":"From"
+            "id": "title",
+            "title":"Title"
+        },
+        {
+            "id": "posts",
+            "title":"Posts"
+        },
+        {
+            "id": "name",
+            "title":"Name"
+        },
+        {
+            "id": "updated",
+            "title":"Updated"
+        },
+        {
+            "id": "description",
+            "title":"Description"
+        },
+        {
+            "id": "ask",
+            "title":"Ask"
+        },
+        {
+            "id": "ask_anon",
+            "title":"Ask Anonymous"
+        },
+        {
+            "id": "likes",
+            "title":"Likes"
         }
-      */
     ],
+    "icon": "tumblr",
     "title": "Tumblr Get Blog Info" /* Required.A display name for the module */
 }
