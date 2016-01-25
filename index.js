@@ -38,7 +38,7 @@ module.exports = {
         //send API request
         request.put({
             url: uriLink,
-            qs: {api_key: inputs.api_key + ''},
+            qs: {api_key: inputs.api_key },
             json: true
         }, function (error, response, body) {
             if (error)

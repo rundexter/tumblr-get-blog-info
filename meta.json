@@ -48,6 +48,9 @@
             "title":"Likes"
         }
     ],
+    "providers": [{
+        "name": "tumblr"
+    }],
     "icon": "tumblr",
     "title": "Tumblr Get Blog Info" /* Required.A display name for the module */
 }
